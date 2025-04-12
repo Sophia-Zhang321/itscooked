@@ -1,6 +1,5 @@
 import { Stack } from "expo-router";
 import { useFonts } from 'expo-font';
-import {View } from 'react-native';
 
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
@@ -13,6 +12,8 @@ export default function RootLayout() {
     <Stack.Screen name="index" options={{ headerShown: false }} />
     <Stack.Screen name="chooseanimal" options={{ headerShown: false }} />
     <Stack.Screen name="cow" options={{ headerShown: false }} />
-    {/* Add other screens as needed */}
+    <Stack.Screen name="pig" options={{ headerShown: false }} />
+    <Stack.Screen name="chicken" options={{ headerShown: false }} />
+    <Stack.Screen name="fish" options={{ headerShown: false }} />
   </Stack>)
 }

@@ -3,7 +3,7 @@ import { Text, View, Button, TouchableOpacity, TextInput, Keyboard, TouchableWit
 import { useRouter } from "expo-router";
 import globalStyles from "C:/Users/sophi/itscooked/app/styles/styles";
 
-export default function pig() {
+export default function fish() {
     const router = useRouter();
     const [weight, setWeight] = useState('');
     const [isInputValid, setIsInputValid] = useState(true);
