@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Text, View, Button, TouchableOpacity, TextInput, Keyboard, TouchableWithoutFeedback, Alert } from "react-native";
+import { Text, View, Button, TouchableOpacity, TextInput, Alert, TouchableWithoutFeedback, Keyboard } from "react-native";
 import { useRouter } from "expo-router";
 import globalStyles from "C:/Users/sophi/itscooked/app/styles/styles";
 
@@ -23,6 +23,12 @@ export default function fish() {
         Alert.alert('Invalid Input', 'Please enter a valid weight in ounces');
         setIsInputValid(false);
         return;
+      }
+      else{
+        router.push({
+          pathname: '/calculate',
+          params: { weight: numericWeight, 
+                    animal: 'fish' }})
       }
     }
 

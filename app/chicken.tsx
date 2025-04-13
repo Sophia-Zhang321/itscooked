@@ -24,6 +24,12 @@ export default function chicken() {
         setIsInputValid(false);
         return;
       }
+      else{
+        router.push({
+          pathname: '/calculate',
+          params: { weight: numericWeight, 
+                    animal: 'chicken' }})
+      }
     }
 
   return (

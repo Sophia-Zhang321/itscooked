@@ -15,5 +15,7 @@ export default function RootLayout() {
     <Stack.Screen name="pig" options={{ headerShown: false }} />
     <Stack.Screen name="chicken" options={{ headerShown: false }} />
     <Stack.Screen name="fish" options={{ headerShown: false }} />
+    <Stack.Screen name="calculate" options={{ headerShown: false }} />
+    <Stack.Screen name="final" options={{ headerShown: false }} />
   </Stack>)
 }
