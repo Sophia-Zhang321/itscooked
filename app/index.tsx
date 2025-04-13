@@ -6,13 +6,7 @@ export default function Index() {
   const router = useRouter();
 
   return (  
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <View style={globalStyles.container}>
     <Pressable style={globalStyles.container} onPress={() => router.push("/chooseanimal")}>
       <Text style={globalStyles.title}>
         WELCOME TO MEAT COOKER 1000

@@ -7,7 +7,7 @@ import globalStyles from "C:/Users/sophi/itscooked/app/styles/styles";
 export default function final() {
     const router = useRouter();
     return(
-    <View>
+    <View style={globalStyles.container}>
         <Text style={globalStyles.title}> MEATT DONE :p </Text>
         
         <TouchableOpacity
