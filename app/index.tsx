@@ -7,14 +7,19 @@ export default function Index() {
 
   return (  
     <View style={globalStyles.container}>
-    <Pressable style={globalStyles.container} onPress={() => router.push("/chooseanimal")}>
-      <Text style={globalStyles.title}>
-        WELCOME TO MEAT COOKER 1000
-      </Text>
-      <Text style={globalStyles.subtitle}>
-        CLICK ANYWHERE TO START
-      </Text>
-    </Pressable>
+      <Pressable 
+        style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }} 
+        onPress={() => router.push("/chooseanimal")}>
+        <Text style={{    
+          fontFamily: "Jersey10-Regular",
+          textAlign: 'center',
+          fontSize: 80,}}>
+          WELCOME TO MEAT COOKER 1000
+        </Text>
+        <Text style={globalStyles.subtitle}>
+          CLICK ANYWHERE TO START
+        </Text>
+      </Pressable>
     </View>
   );
 }

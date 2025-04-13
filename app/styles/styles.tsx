@@ -3,23 +3,22 @@ import { StyleSheet } from "react-native";
 const globalStyles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 100,
+    paddingTop: 20,
     alignItems: "center",
-    backgroundColor: "#fff",
+    backgroundColor: "#F4D6D7",
   },
   title: {
     fontFamily: "Jersey10-Regular",
     textAlign: 'center',
-    fontSize: 70,
-    marginTop: 200,
-    marginBottom: 10,
+    fontSize: 80,
+    marginTop: 180,
   },
   subtitle: {
     fontSize: 30,
-    marginBottom: 30,
     color: "#666",
     fontFamily: "VT323-Regular",
     textAlign: 'center',
+    marginTop: 35,
   },
   button: {
     width: "80%",
@@ -31,7 +30,7 @@ const globalStyles = StyleSheet.create({
   },
   buttonText: {
     color: "#fff",
-    fontSize: 18,
+    fontSize: 25,
     fontFamily: "VT323-Regular",
   },
   inputBox: {
@@ -99,6 +98,12 @@ const globalStyles = StyleSheet.create({
     marginTop: 15,
     textAlign: 'center',
     fontStyle: 'italic',
+  },
+  dancingcow: {
+    width: 150,
+    height: 150,
+    margin: 30,
+    marginLeft: 150,
   },
 });
 

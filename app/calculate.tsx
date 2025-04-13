@@ -72,7 +72,7 @@ const MeatDonenessChecker: React.FC = () => {
   useEffect(() => {
     const internal = setInterval(async () => {
       const res = await fetch(
-        "https://a116-169-234-65-184.ngrok-free.app/temp"
+        "https://c6ee-169-234-65-184.ngrok-free.app/temp"
       );
       setSurfaceTemp(parseInt(await res.text()));
     }, 1000);

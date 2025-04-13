@@ -10,8 +10,8 @@ export default function chooseanimal() {
     return (
       <View style={globalStyles.container}>
         <Text style={globalStyles.title}>pick one </Text>
-        <Text style={[globalStyles.buttonText, { marginBottom: 30 }]}>
-          Choose an option:
+        <Text style={[globalStyles.subtitle, { marginBottom: 30 }]}>
+          choose an option:
         </Text>
   
         <TouchableOpacity
