@@ -1,6 +1,8 @@
 import { useRouter } from "expo-router";
-import { View, Text, TouchableOpacity, Button } from "react-native";
+import { View, Text, TouchableOpacity, Button, Image } from "react-native";
 import globalStyles from "C:/Users/sophi/itscooked/app/styles/styles";
+//import pig from 'C:/Users/sophi/itscooked/assets/images/pig.png';
+//import cow from 'C:/Users/sophi/itscooked/assets/images/cow.png';
 
 export default function chooseanimal() {
     const router = useRouter();

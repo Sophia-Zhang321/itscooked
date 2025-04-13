@@ -4,7 +4,7 @@ import globalStyles from "C:/Users/sophi/itscooked/app/styles/styles";
 import React, { useState, useEffect } from 'react';
 
 
-type MeatType = 'chicken' | 'beef' | 'pork' | 'fish';
+type MeatType = 'chicken' | 'cow' | 'pig' | 'fish';
 
 interface MeatSafetyCheckerProps {
     meatType: MeatType;
@@ -30,16 +30,16 @@ const MeatDonenessChecker: React.FC = () => {
     // FDA safe temperatures
     const SAFE_TEMPS: Record<MeatType, number> = {
         chicken: 165,
-        pork: 145,
-        beef: 145,
+        pig: 145,
+        cow: 145,
         fish: 145
     };
 
     // Heat loss factors by meat type
     const HEAT_LOSS_FACTORS: Record<MeatType, number> = {
         chicken: 15,
-        pork: 15,
-        beef: 15,
+        pig: 15,
+        cow: 15,
         fish: 10
     };
 
